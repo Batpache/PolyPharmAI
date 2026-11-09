@@ -74,3 +74,4 @@ Es la base de conocimiento para el endpoint **`/api/conciliacion`**. Al comparar
 | **`efecto`** | `string` | **Explicación técnica/clínica del efecto adverso**. Resume la consecuencia fisiológica documentada (ej. *hiperpotasemia*, *reducción de eficacia antiagregante*, *sangrado gastrointestinal*). |
 | **`fuente`** | `string` | **Referencia documental oficial** (ej. *Ficha Técnica Oficial COFEPRIS*, *PLM*, *Guías CENETEC*). Garantiza la legitimidad regulatoria y médica ante COFEPRIS, demostrando que la app no "inventa" opiniones médicas. |
 | **`mensaje_paciente`** | `string` | **Texto redactado en lenguaje claro, empático y preventivo para el usuario lego.** Siempre remite a la consulta médica o farmacéutica (ej. *"Consulta a tu médico antes de combinarlos"*), cumpliendo la regla de nunca prescribir ni suspender tratamientos por cuenta propia. |
+
