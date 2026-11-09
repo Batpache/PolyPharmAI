@@ -1,0 +1,275 @@
+{
+  "info": {
+    "name": "PolyPharmAI API - Fase 1",
+    "description": "Colección de pruebas para endpoints básicos de PolyPharmAI (Auth, Perfil, Botiquín, Recordatorios, Cuenta)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3001/api",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "TU_JWT_AQUI",
+      "type": "string"
+    },
+    {
+      "key": "itemId",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "recordatorioId",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{token}}",
+        "type": "string"
+      }
+    ]
+  },
+  "item": [
+    {
+      "name": "0. Health Check (Público)",
+      "request": {
+        "auth": { "type": "noauth" },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/health",
+          "host": ["{{baseUrl}}"],
+          "path": ["health"]
+        }
+      }
+    },
+    {
+      "name": "1. Auth & Perfil",
+      "item": [
+        {
+          "name": "POST /api/auth/registro",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"Paciente Prueba\",\n  \"aceptar_consentimiento\": true,\n  \"version\": \"2026-11-v1\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/registro",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "registro"]
+            }
+          }
+        },
+        {
+          "name": "GET /api/perfil",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/perfil",
+              "host": ["{{baseUrl}}"],
+              "path": ["perfil"]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/perfil",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"condiciones\": [\n    \"Hipertensión arterial\",\n    \"Diabetes mellitus tipo 2\"\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/perfil",
+              "host": ["{{baseUrl}}"],
+              "path": ["perfil"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Botiquín",
+      "item": [
+        {
+          "name": "GET /api/botiquin (Base y Activos)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/botiquin?tipo=base&activo=true",
+              "host": ["{{baseUrl}}"],
+              "path": ["botiquin"],
+              "query": [
+                { "key": "tipo", "value": "base" },
+                { "key": "activo", "value": "true" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/botiquin (Captura Manual)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const res = pm.response.json();",
+                  "if (res.data && res.data.id) {",
+                  "  pm.collectionVariables.set('itemId', res.data.id);",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre_capturado\": \"Losartán 50mg\",\n  \"concentracion\": \"50 mg\",\n  \"forma_farmaceutica\": \"Tableta\",\n  \"dosis\": \"1 tableta\",\n  \"frecuencia\": \"Cada 12 horas\",\n  \"frecuencia_horas\": 12,\n  \"duracion_dias\": 30\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/botiquin",
+              "host": ["{{baseUrl}}"],
+              "path": ["botiquin"]
+            }
+          }
+        },
+        {
+          "name": "PATCH /api/botiquin/:id",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"dosis\": \"1/2 tableta\",\n  \"frecuencia\": \"Cada 24 horas\",\n  \"frecuencia_horas\": 24\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/botiquin/{{itemId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["botiquin", "{{itemId}}"]
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/botiquin/:id (Baja Lógica)",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/botiquin/{{itemId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["botiquin", "{{itemId}}"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. Recordatorios",
+      "item": [
+        {
+          "name": "GET /api/recordatorios (Hoy)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/recordatorios",
+              "host": ["{{baseUrl}}"],
+              "path": ["recordatorios"]
+            }
+          }
+        },
+        {
+          "name": "POST /api/recordatorios",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const res = pm.response.json();",
+                  "if (res.data && res.data.id) {",
+                  "  pm.collectionVariables.set('recordatorioId', res.data.id);",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"item_id\": \"{{itemId}}\",\n  \"hora\": \"08:00\",\n  \"dias_semana\": [1, 2, 3, 4, 5, 6, 7]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/recordatorios",
+              "host": ["{{baseUrl}}"],
+              "path": ["recordatorios"]
+            }
+          }
+        },
+        {
+          "name": "PATCH /api/recordatorios/:id/tomado (Toma de hoy)",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/recordatorios/{{recordatorioId}}/tomado",
+              "host": ["{{baseUrl}}"],
+              "path": ["recordatorios", "{{recordatorioId}}", "tomado"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "4. Cuenta",
+      "item": [
+        {
+          "name": "DELETE /api/cuenta",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"confirmar\": true\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/cuenta",
+              "host": ["{{baseUrl}}"],
+              "path": ["cuenta"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+
