@@ -1,0 +1,452 @@
+[
+  {
+    "id": "COF-001",
+    "nombre_comercial": "Cozaar",
+    "denominacion_generica": "Losartán potásico",
+    "principios_activos": ["losartan"],
+    "concentracion": "50 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "123M95 SSA"
+  },
+  {
+    "id": "COF-002",
+    "nombre_comercial": "Cozaar",
+    "denominacion_generica": "Losartán potásico",
+    "principios_activos": ["losartan"],
+    "concentracion": "100 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "123M95 SSA"
+  },
+  {
+    "id": "COF-003",
+    "nombre_comercial": "Losartán Genérico",
+    "denominacion_generica": "Losartán",
+    "principios_activos": ["losartan"],
+    "concentracion": "50 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "321M2001 SSA"
+  },
+  {
+    "id": "COF-004",
+    "nombre_comercial": "Dimefor",
+    "denominacion_generica": "Metformina hidrocloruro",
+    "principios_activos": ["metformina"],
+    "concentracion": "850 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "045M89 SSA"
+  },
+  {
+    "id": "COF-005",
+    "nombre_comercial": "Glucophage",
+    "denominacion_generica": "Metformina",
+    "principios_activos": ["metformina"],
+    "concentracion": "500 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "189M82 SSA"
+  },
+  {
+    "id": "COF-006",
+    "nombre_comercial": "Metformina Genérico",
+    "denominacion_generica": "Metformina",
+    "principios_activos": ["metformina"],
+    "concentracion": "850 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "567M2003 SSA"
+  },
+  {
+    "id": "COF-007",
+    "nombre_comercial": "Lipitor",
+    "denominacion_generica": "Atorvastatina cálcica",
+    "principios_activos": ["atorvastatina"],
+    "concentracion": "20 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "234M97 SSA"
+  },
+  {
+    "id": "COF-008",
+    "nombre_comercial": "Atorvastatina Genérico",
+    "denominacion_generica": "Atorvastatina",
+    "principios_activos": ["atorvastatina"],
+    "concentracion": "40 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "678M2008 SSA"
+  },
+  {
+    "id": "COF-009",
+    "nombre_comercial": "Losec",
+    "denominacion_generica": "Omeprazol",
+    "principios_activos": ["omeprazol"],
+    "concentracion": "20 mg",
+    "forma_farmaceutica": "Cápsula",
+    "registro_sanitario": "112M89 SSA"
+  },
+  {
+    "id": "COF-010",
+    "nombre_comercial": "Omeprazol Genérico",
+    "denominacion_generica": "Omeprazol",
+    "principios_activos": ["omeprazol"],
+    "concentracion": "20 mg",
+    "forma_farmaceutica": "Cápsula",
+    "registro_sanitario": "432M2000 SSA"
+  },
+  {
+    "id": "COF-011",
+    "nombre_comercial": "Aspirina Protect",
+    "denominacion_generica": "Ácido acetilsalicílico",
+    "principios_activos": ["acido acetilsalicilico"],
+    "concentracion": "100 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "018M95 SSA"
+  },
+  {
+    "id": "COF-012",
+    "nombre_comercial": "Plavix",
+    "denominacion_generica": "Clopidogrel",
+    "principios_activos": ["clopidogrel"],
+    "concentracion": "75 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "534M98 SSA"
+  },
+  {
+    "id": "COF-013",
+    "nombre_comercial": "Norvasc",
+    "denominacion_generica": "Amlodipino besilato",
+    "principios_activos": ["amlodipino"],
+    "concentracion": "5 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "201M90 SSA"
+  },
+  {
+    "id": "COF-014",
+    "nombre_comercial": "Amlodipino Genérico",
+    "denominacion_generica": "Amlodipino",
+    "principios_activos": ["amlodipino"],
+    "concentracion": "5 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "890M2005 SSA"
+  },
+  {
+    "id": "COF-015",
+    "nombre_comercial": "Micardis",
+    "denominacion_generica": "Telmisartán",
+    "principios_activos": ["telmisartan"],
+    "concentracion": "40 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "401M99 SSA"
+  },
+  {
+    "id": "COF-016",
+    "nombre_comercial": "Micardis",
+    "denominacion_generica": "Telmisartán",
+    "principios_activos": ["telmisartan"],
+    "concentracion": "80 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "401M99 SSA"
+  },
+  {
+    "id": "COF-017",
+    "nombre_comercial": "Enalapril Genérico",
+    "denominacion_generica": "Enalapril maleato",
+    "principios_activos": ["enalapril"],
+    "concentracion": "10 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "120M86 SSA"
+  },
+  {
+    "id": "COF-018",
+    "nombre_comercial": "Renitec",
+    "denominacion_generica": "Enalapril maleato",
+    "principios_activos": ["enalapril"],
+    "concentracion": "20 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "012M85 SSA"
+  },
+  {
+    "id": "COF-019",
+    "nombre_comercial": "Capoten",
+    "denominacion_generica": "Captopril",
+    "principios_activos": ["captopril"],
+    "concentracion": "25 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "089M81 SSA"
+  },
+  {
+    "id": "COF-020",
+    "nombre_comercial": "Lasix",
+    "denominacion_generica": "Furosemida",
+    "principios_activos": ["furosemida"],
+    "concentracion": "40 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "61543 SSA"
+  },
+  {
+    "id": "COF-021",
+    "nombre_comercial": "Aldactone",
+    "denominacion_generica": "Espironolactona",
+    "principios_activos": ["espironolactona"],
+    "concentracion": "25 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "54231 SSA"
+  },
+  {
+    "id": "COF-022",
+    "nombre_comercial": "Aldactone",
+    "denominacion_generica": "Espironolactona",
+    "principios_activos": ["espironolactona"],
+    "concentracion": "100 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "54231 SSA"
+  },
+  {
+    "id": "COF-023",
+    "nombre_comercial": "Concor",
+    "denominacion_generica": "Bisoprolol fumarato",
+    "principios_activos": ["bisoprolol"],
+    "concentracion": "5 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "321M98 SSA"
+  },
+  {
+    "id": "COF-024",
+    "nombre_comercial": "Lopresor",
+    "denominacion_generica": "Metoprolol tartrato",
+    "principios_activos": ["metoprolol"],
+    "concentracion": "100 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "87342 SSA"
+  },
+  {
+    "id": "COF-025",
+    "nombre_comercial": "Daonil",
+    "denominacion_generica": "Glibenclamida",
+    "principios_activos": ["glibenclamida"],
+    "concentracion": "5 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "76123 SSA"
+  },
+  {
+    "id": "COF-026",
+    "nombre_comercial": "Januvia",
+    "denominacion_generica": "Sitagliptina",
+    "principios_activos": ["sitagliptina"],
+    "concentracion": "100 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "243M2006 SSA"
+  },
+  {
+    "id": "COF-027",
+    "nombre_comercial": "Janumet",
+    "denominacion_generica": "Sitagliptina / Metformina",
+    "principios_activos": ["sitagliptina", "metformina"],
+    "concentracion": "50 mg / 850 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "089M2007 SSA"
+  },
+  {
+    "id": "COF-028",
+    "nombre_comercial": "Jardianz",
+    "denominacion_generica": "Empagliflozina",
+    "principios_activos": ["empagliflozina"],
+    "concentracion": "10 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "154M2014 SSA"
+  },
+  {
+    "id": "COF-029",
+    "nombre_comercial": "Jardianz",
+    "denominacion_generica": "Empagliflozina",
+    "principios_activos": ["empagliflozina"],
+    "concentracion": "25 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "154M2014 SSA"
+  },
+  {
+    "id": "COF-030",
+    "nombre_comercial": "Forxiga",
+    "denominacion_generica": "Dapagliflozina",
+    "principios_activos": ["dapagliflozina"],
+    "concentracion": "10 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "321M2012 SSA"
+  },
+  {
+    "id": "COF-031",
+    "nombre_comercial": "Crestor",
+    "denominacion_generica": "Rosuvastatina cálcica",
+    "principios_activos": ["rosuvastatina"],
+    "concentracion": "10 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "567M2003 SSA"
+  },
+  {
+    "id": "COF-032",
+    "nombre_comercial": "Crestor",
+    "denominacion_generica": "Rosuvastatina cálcica",
+    "principios_activos": ["rosuvastatina"],
+    "concentracion": "20 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "567M2003 SSA"
+  },
+  {
+    "id": "COF-033",
+    "nombre_comercial": "Zocor",
+    "denominacion_generica": "Simvastatina",
+    "principios_activos": ["simvastatina"],
+    "concentracion": "20 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "120M89 SSA"
+  },
+  {
+    "id": "COF-034",
+    "nombre_comercial": "Controlip",
+    "denominacion_generica": "Fenofibrato",
+    "principios_activos": ["fenofibrato"],
+    "concentracion": "160 mg",
+    "forma_farmaceutica": "Cápsula",
+    "registro_sanitario": "432M99 SSA"
+  },
+  {
+    "id": "COF-035",
+    "nombre_comercial": "Tempra",
+    "denominacion_generica": "Paracetamol",
+    "principios_activos": ["paracetamol"],
+    "concentracion": "500 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "45678 SSA"
+  },
+  {
+    "id": "COF-036",
+    "nombre_comercial": "Tylenol",
+    "denominacion_generica": "Paracetamol",
+    "principios_activos": ["paracetamol"],
+    "concentracion": "500 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "56789 SSA"
+  },
+  {
+    "id": "COF-037",
+    "nombre_comercial": "Paracetamol Genérico",
+    "denominacion_generica": "Paracetamol",
+    "principios_activos": ["paracetamol"],
+    "concentracion": "500 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "002M98 SSA"
+  },
+  {
+    "id": "COF-038",
+    "nombre_comercial": "Motrin",
+    "denominacion_generica": "Ibuprofeno",
+    "principios_activos": ["ibuprofeno"],
+    "concentracion": "400 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "78912 SSA"
+  },
+  {
+    "id": "COF-039",
+    "nombre_comercial": "Motrin",
+    "denominacion_generica": "Ibuprofeno",
+    "principios_activos": ["ibuprofeno"],
+    "concentracion": "600 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "78912 SSA"
+  },
+  {
+    "id": "COF-040",
+    "nombre_comercial": "Ibuprofeno Genérico",
+    "denominacion_generica": "Ibuprofeno",
+    "principios_activos": ["ibuprofeno"],
+    "concentracion": "400 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "234M2001 SSA"
+  },
+  {
+    "id": "COF-041",
+    "nombre_comercial": "Voltaren",
+    "denominacion_generica": "Diclofenaco sódico",
+    "principios_activos": ["diclofenaco"],
+    "concentracion": "100 mg",
+    "forma_farmaceutica": "Gragea de liberación prolongada",
+    "registro_sanitario": "89234 SSA"
+  },
+  {
+    "id": "COF-042",
+    "nombre_comercial": "Diclofenaco Genérico",
+    "denominacion_generica": "Diclofenaco",
+    "principios_activos": ["diclofenaco"],
+    "concentracion": "100 mg",
+    "forma_farmaceutica": "Cápsula",
+    "registro_sanitario": "123M2004 SSA"
+  },
+  {
+    "id": "COF-043",
+    "nombre_comercial": "Flanax",
+    "denominacion_generica": "Naproxeno sódico",
+    "principios_activos": ["naproxeno"],
+    "concentracion": "550 mg",
+    "forma_farmaceutica": "Tableta",
+    "registro_sanitario": "84321 SSA"
+  },
+  {
+    "id": "COF-044",
+    "nombre_comercial": "Celebrex",
+    "denominacion_generica": "Celecoxib",
+    "principios_activos": ["celecoxib"],
+    "concentracion": "200 mg",
+    "forma_farmaceutica": "Cápsula",
+    "registro_sanitario": "012M99 SSA"
+  },
+  {
+    "id": "COF-045",
+    "nombre_comercial": "Pantozol",
+    "denominacion_generica": "Pantoprazol",
+    "principios_activos": ["pantoprazol"],
+    "concentracion": "40 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "321M94 SSA"
+  },
+  {
+    "id": "COF-046",
+    "nombre_comercial": "Nexium",
+    "denominacion_generica": "Esomeprazol",
+    "principios_activos": ["esomeprazol"],
+    "concentracion": "40 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "456M2000 SSA"
+  },
+  {
+    "id": "COF-047",
+    "nombre_comercial": "Eutirox",
+    "denominacion_generica": "Levotiroxina sódica",
+    "principios_activos": ["levotiroxina"],
+    "concentracion": "50 mcg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "56432 SSA"
+  },
+  {
+    "id": "COF-048",
+    "nombre_comercial": "Eutirox",
+    "denominacion_generica": "Levotiroxina sódica",
+    "principios_activos": ["levotiroxina"],
+    "concentracion": "100 mcg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "56432 SSA"
+  },
+  {
+    "id": "COF-049",
+    "nombre_comercial": "Eliquis",
+    "denominacion_generica": "Apixabán",
+    "principios_activos": ["apixaban"],
+    "concentracion": "5 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "245M2011 SSA"
+  },
+  {
+    "id": "COF-050",
+    "nombre_comercial": "Xarelto",
+    "denominacion_generica": "Rivaroxabán",
+    "principios_activos": ["rivaroxaban"],
+    "concentracion": "20 mg",
+    "forma_farmaceutica": "Comprimido",
+    "registro_sanitario": "301M2008 SSA"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "INT-001",
+    "farmaco_a": "losartan",
+    "farmaco_b": "ibuprofeno",
+    "tipo": "farmacodinamica",
+    "severidad": "moderada",
+    "efecto": "Los AINEs como el ibuprofeno pueden reducir el efecto antihipertensivo del losartán y aumentar el riesgo de deterioro de la función renal.",
+    "fuente": "PLM / Ficha Técnica Oficial COFEPRIS",
+    "mensaje_paciente": "El uso simultáneo puede disminuir el control de la presión arterial y afectar los riñones. Consulta a tu médico antes de combinarlos."
+  },
+  {
+    "id": "INT-002",
+    "farmaco_a": "losartan",
+    "farmaco_b": "naproxeno",
+    "tipo": "farmacodinamica",
+    "severidad": "moderada",
+    "efecto": "El naproxeno puede disminuir el efecto hipotensor del losartán y elevar el riesgo de falla renal.",
+    "fuente": "PLM / Ficha Técnica Oficial COFEPRIS",
+    "mensaje_paciente": "El analgésico puede reducir la efectividad de tu medicamento para la presión. Consulta a tu médico tratante."
+  },
+  {
+    "id": "INT-003",
+    "farmaco_a": "losartan",
+    "farmaco_b": "espironolactona",
+    "tipo": "farmacodinamica",
+    "severidad": "alta",
+    "efecto": "Riesgo significativo de hiperpotasemia (niveles peligrosamente altos de potasio en sangre).",
+    "fuente": "Catálogo de Medicamentos SSA / COFEPRIS",
+    "mensaje_paciente": "Esta combinación puede elevar el potasio en sangre. Requiere monitoreo médico y análisis de laboratorio periódicos."
+  },
+  {
+    "id": "INT-004",
+    "farmaco_a": "enalapril",
+    "farmaco_b": "espironolactona",
+    "tipo": "farmacodinamica",
+    "severidad": "alta",
+    "efecto": "Riesgo elevado de hiperpotasemia severa.",
+    "fuente": "Catálogo de Medicamentos SSA / COFEPRIS",
+    "mensaje_paciente": "Ambos medicamentos retienen potasio. Tu médico debe vigilar los niveles sanguíneos frecuentemente."
+  },
+  {
+    "id": "INT-005",
+    "farmaco_a": "enalapril",
+    "farmaco_b": "ibuprofeno",
+    "tipo": "farmacodinamica",
+    "severidad": "moderada",
+    "efecto": "Antagonismo del efecto antihipertensivo y mayor riesgo de toxicidad renal.",
+    "fuente": "PLM / COFEPRIS",
+    "mensaje_paciente": "El ibuprofeno puede contrarrestar el efecto del enalapril. Evita automedicarte analgésicos sin aval médico."
+  },
+  {
+    "id": "INT-006",
+    "farmaco_a": "clopidogrel",
+    "farmaco_b": "omeprazol",
+    "tipo": "farmacocinetica",
+    "severidad": "alta",
+    "efecto": "El omeprazol inhibe la enzima CYP2C19, reduciendo la conversión de clopidogrel a su metabolito activo y disminuyendo su eficacia protectora cardiovascular.",
+    "fuente": "Alerta de Seguridad COFEPRIS / FDA",
+    "mensaje_paciente": "El omeprazol puede restar efectividad al clopidogrel para prevenir coágulos. Pregunta a tu médico por protectores gástricos alternativos como pantoprazol."
+  },
+  {
+    "id": "INT-007",
+    "farmaco_a": "clopidogrel",
+    "farmaco_b": "esomeprazol",
+    "tipo": "farmacocinetica",
+    "severidad": "alta",
+    "efecto": "Disminución de la concentración activa de clopidogrel por inhibición enzimática.",
+    "fuente": "Alerta de Seguridad COFEPRIS",
+    "mensaje_paciente": "El esomeprazol puede disminuir la acción anticoagulante/antiagregante del clopidogrel. Consulta a tu especialista."
+  },
+  {
+    "id": "INT-008",
+    "farmaco_a": "acido acetilsalicilico",
+    "farmaco_b": "ibuprofeno",
+    "tipo": "farmacodinamica",
+    "severidad": "alta",
+    "efecto": "El ibuprofeno puede bloquear competitivamente el efecto antiagregante plaquetario cardioprotector de la aspirina a dosis bajas, además de elevar el riesgo de sangrado digestivo.",
+    "fuente": "Guía de Práctica Clínica CENETEC",
+    "mensaje_paciente": "Tomar ibuprofeno junto con aspirina protectora puede anular la protección para el corazón y provocar irritación o sangrado gástrico."
+  },
+  {
+    "id": "INT-009",
+    "farmaco_a": "atorvastatina",
+    "farmaco_b": "fenofibrato",
+    "tipo": "farmacocinetica",
+    "severidad": "moderada",
+    "efecto": "Incremento del riesgo de toxicidad muscular (miopatía y rabdomiólisis).",
+    "fuente": "Ficha Técnica Oficial COFEPRIS",
+    "mensaje_paciente": "La combinación para colesterol y triglicéridos requiere supervisión médica ante dolores o debilidad muscular inusual."
+  },
+  {
+    "id": "INT-010",
+    "farmaco_a": "apixaban",
+    "farmaco_b": "naproxeno",
+    "tipo": "farmacodinamica",
+    "severidad": "alta",
+    "efecto": "Potenciación del riesgo hemorrágico mayor por daño a la mucosa gástrica y efecto anticoagulante simultáneo.",
+    "fuente": "Guía Farmacológica SSA",
+    "mensaje_paciente": "Alto riesgo de hemorragia o sangrado. Nunca tomes antiinflamatorios con anticoagulantes sin indicación expresa de tu médico."
+  }
+]

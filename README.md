@@ -58,5 +58,7 @@ curl http://localhost:3001/api/health
 ## Documentación Detallada
 
 - [**Arquitectura, Manejo de Datos y Endpoints**](docs/arquitectura-backend-y-endpoints.md): Explicación exhaustiva del diseño de seguridad (disociación de identidad/salud, multi-tenancy, zona horaria), lógica de negocio y comportamiento de cada endpoint.
+- [**Estructura de Catálogos JSON y Función de Datos**](docs/estructura-catalogos-json.md): Detalle técnico de los campos, formatos y propósito clínico/regulatorio de `medicamentos.json` (COFEPRIS) e `interacciones.json`.
+- [**Análisis de Implementación de IA**](docs/analisis-implementacion-ia.md): Arquitectura de integración con Gemini Flash, structured outputs y ciclo de vida de recetas médicas.
 - [**Contratos de la API (Endpoints)**](docs/api.md): Especificación técnica de parámetros, esquemas Zod y payloads de respuesta.
 - [**Colección Postman**](docs/polypharmai_postman_collection.json): Archivo JSON listo para importar y probar los flujos completos.
